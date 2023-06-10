@@ -1,0 +1,76 @@
+.button {
+    outline: none;
+    align-items: center;
+    background: #3e62ae;
+    border: 2px solid #11274b;
+    border-radius: 8px;
+    color: #11274b;
+    text-align: center;
+    font-size: 23px;
+    transition: all 320ms;
+}
+.button:not([disabled]):hover {
+    outline: none;
+    background: #264d80;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.button:not([disabled]):focus {
+    outline: none;
+    border: 2px dashed #11274b;
+}
+.button:not([disabled]):active {
+    outline: none;
+    background: #3e62ae;
+    cursor: pointer;
+}
+.button:disabled {
+    cursor: default;
+    color: #596173;
+}
+
+.mainButton {
+    display: flex;
+    height: 60px;
+    margin: 8px 0;
+    padding: 0 30px;
+}
+
+.functionalButton {
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    margin: 0;
+    padding: 6px;
+}
+
+.plainButton {
+    display: flex;
+    height: 38px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+/*.commentbutton{
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    min-height: 44px;
+    padding: 0 2rem;
+    background: #bd5dc4;
+    color: white;
+    font-size: 23px;
+    transition: all 320ms;
+    width: 160px;
+    height: 50px;
+    z-index: 100;
+    text-align: center;
+}
+
+.commentbutton:hover{
+    transform: scale(1.2);
+    background: #19a640;
+    cursor: pointer;
+}*/

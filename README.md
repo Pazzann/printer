@@ -1,4 +1,4 @@
-# App for printing on templates from excel table
+# App for printing on image templates from excel table
 
 ```
 # Run your app
